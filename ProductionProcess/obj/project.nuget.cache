@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mz0+1EbOVgmt53d+I4Im70fFFAOEvcH8d2/u3sjd4k+aBPM5+Nsl4oG8UkH1zu3JE+2AcOznD8Q95kT0FgVanQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alukj\\source\\repos\\ProductionProcess\\ProductionProcess\\ProductionProcess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alukj\\.nuget\\packages\\yamldotnet\\11.2.1\\yamldotnet.11.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

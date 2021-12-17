@@ -1,0 +1,64 @@
+products: 
+  - id: fire
+    num: 4
+  - id: water 
+    num: 3
+  - id: earth
+    num: 3
+recipes:
+  - name: recipe1
+    components:
+    - id: earth
+      num: 2
+    - id: fire
+      num: 1
+    product:
+      id: lava
+      num: 1
+  - name: recipe2
+    components:
+    - id: water
+      num: 2
+    product:
+      id: earth
+      num: 2
+  - name: recipe3
+    components:
+    - id: lava
+      num: 1
+    - id: earth
+      num: 1
+    product:
+      id: stone
+      num: 1
+  - name: recipe4
+    components:
+    - id: stone
+      num: 1
+    product:
+      id: water
+      num: 3
+projects:
+  - name: project1
+    abilities:
+    - name: recipe1
+      duration: 5
+    - name: recipe2
+      duration: 6
+    - name: recipe4
+      duration: 1
+  - name: project2
+    abilities:
+    - name: recipe2
+      duration: 4
+    - name: recipe3
+      duration: 5
+    - name: recipe4
+      duration: 2
+buildings:
+  - name: factory1
+    project: project1
+  - name: factory2
+    project: project1
+  - name: factory3
+    project: project2
